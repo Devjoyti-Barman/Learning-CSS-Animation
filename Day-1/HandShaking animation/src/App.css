@@ -1,0 +1,21 @@
+.MuiSvgIcon-root {
+    color: yellow;
+    margin-left: 300px;
+    margin-top: 200px;
+    font-size: 100px !important;
+    animation: hand 0.3s ease-in-out 0s infinite alternate ;
+    animation-fill-mode: both;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    margin-left: 300px;
+    margin-top: 200px;
+   
+}
+@keyframes hand {
+    
+    100%  { transform: rotate(-30deg);}
+}
